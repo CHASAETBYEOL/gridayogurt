@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #669ED6;
+}
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    min-width: 1320px;
+}
+
+
+/* 헤더 S */
+header {
+    background-color: rgba(255, 255, 255, 0.938);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_in {
+    width: 90%;
+    min-width: 1320px;
+    margin: 10px auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_in ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.header_in ul li {
+    padding: 10px;
+}
+
+.header_in ul li a{
+   
+}
+
+.header_in ul li a:hover{
+    color: rgba(255, 255, 255, 0.938);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+/* 헤더 E */
+
+
+/* 배너 S */
+.banner {
+    background: url(./images/bg_1.png) no-repeat center top;
+    height: 994px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 220px;
+    background-size: cover;
+}
+
+.banner_in h1 {
+    font-size: 45px;
+    padding: 497px 0 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner_in h2 {
+    margin-bottom: 10px;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.one {
+    color: #669ED6;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.one:hover{
+    color: #fff;
+    background-color: #669ED6;
+
+}
+
+/* 배너 E */
+
+/* 어바웃 어스 S */
+.box2 {
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 220px;
+    display: flex;
+}
+
+.box3{
+    width: 670px;
+}
+
+.box4 {
+    position: relative;
+    width: 520px;
+    height: 580px;
+}
+
+.a1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.a6 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box3 {
+    margin-right: auto;
+}
+
+.box3 h3 {
+    color: #669ED6;
+    font-size: 25px;
+    margin-bottom: 54px;
+}
+
+.box3 p {
+    margin-bottom: 33px;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: #858585;
+}
+
+.box5 img {
+    display: block;
+    margin: 0 0 10px 10px;
+}
+
+
+.box5 .simg1 {
+    margin-top: 201px;
+}
+
+.box5 img .simg2:hover .a7{
+    display: none;
+}
+
+/* 어바웃어스 E */
+
+/* 프로덕트 S */
+.product {
+
+    margin: 220px auto;
+    width: 1320px;
+    text-align: center;
+}
+
+/* .product ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.product ul li a {
+    display: block;
+    padding: 120px 100px 0 0;
+
+}
+
+.a2 {
+    padding: 120px 0;
+}
+ */
+
+h4 {
+    color: #669ED6;
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.product p {
+    margin-bottom: 12px;
+    color: #858585;
+}
+
+.white {
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #669ED6;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+border: #669ED6 solid 2px;
+}
+
+.white:hover{
+    
+    color: #669ED6;
+    background-color: #fff;
+}
+
+.box6 h5{
+   font-size: 15PX;
+}
+
+.box6 h5, .box6 p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.box6 p{
+    color: #858585;
+}
+
+.hover{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #E8F3FF;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: 1s;
+}
+
+.gallery .swiper-slide:hover .hover{
+opacity: 1;
+}
+/* 프로덕트 E */
+
+/* 배너2 S */
+.banner2 {
+    background: url(./images/bg_2.png) no-repeat center top fixed;
+    height: 900px;
+    text-align: center;
+    color: #669ED6;
+    margin-bottom: 220px;
+    background-size: cover;
+}
+
+.a3 {
+    font-family: 'Cafe24Shiningstar';
+    font-size: 40px;
+}
+
+.banner2 h6 {
+    font-size: 30px;
+    padding-top: 400px;
+    text-transform: uppercase;
+
+}
+/* 배너2 E */
+
+
+/* 프로모션 S */
+.promotion {
+    /* background-color: #EEF6FF; */
+    margin-bottom: 220px;
+    padding: 58px 0;
+}
+
+.text{
+    margin-bottom: 12px;
+    color: #858585;
+    text-align: center;
+}
+
+
+.box7 {
+    background-color: #fff;
+    padding: 40px 0px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.orange{
+    color: #616161;
+    margin-bottom: 30px;
+}
+
+.pro1{
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 40px;
+    background-color: #ED853A;
+    
+}
+
+.pro2{
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 40px;
+    background-color: #70A6FC;
+
+}
+
+.pro3{
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 40px;
+    background-color: #638CC8;
+
+}
+
+.pro4{
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 40px;
+    background-color: #FFB6D6;
+
+}
+
+.pro5{
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 40px;
+    background-color: #BADEBC;
+
+}
+/* 프로모션 E */
+
+
+/* 팔로우 S */
+.follows ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex; 
+}
+
+.follows ul li a:hover img{
+    transform: scale(1.3, 1.3);
+}
+
+.follows ul li{
+    overflow: hidden;
+    flex: 1;
+}
+
+.follows ul li img{
+    display: block;
+    transition: all 1s;
+    width: 100%;
+}
+/* 팔로우 E */
+
+/* 푸터 S */
+footer {
+    background-color: #669ED6;
+    padding: 50px;
+}
+
+.footer_in{
+    width: 1320px;
+    margin: auto;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    align-items: center;
+}
+
+.footer_in div{
+    margin-left: 50px;
+}
+
+.footer_in div ul{
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+ }
+
+ .footer_in div ul li a{
+    color: #fff;
+    padding: 30px 45px 20px 0;
+}
+
+.footer_in div ul li a:hover{
+    color: #185796
+}
+
+.footer3{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.sns{
+    margin-left: auto; 
+    
+}
+
+.sns li a{
+    color: #fff;
+    display: block;
+    padding: 0 0 0 15px;
+    font-size: 12px;
+}
+.sns li:nth-child(1) a{
+    background: url(./images/f_in.png) no-repeat left center;
+}
+
+.sns li:nth-child(2) a{
+    background: url(./images/f_e.png) no-repeat left center;
+}
+
+.sns li:nth-child(3) a{
+    background: url(./images/f_k.png) no-repeat left center;
+}
+
+.sns li a:hover{
+    color: #185796
+}
+
+.mark{
+    background:linear-gradient(to right, rgba(255,255,255,0) 50%, #ffefb7 50%);
+    background-size:200%;
+    transition:.35s;
+}
+
+.box3 p:hover .mark{
+    background-position:-100% 0;
+}
