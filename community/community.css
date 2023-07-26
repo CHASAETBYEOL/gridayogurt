@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6B6B6B;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 S */
+header {
+    background-color: #669ED6;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_in {
+    width: 90%;
+    min-width: 1320px;
+    margin: 10px auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_in ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.header_in ul li {
+    padding: 10px;
+}
+
+.header_in ul li a {
+    color: #fff;
+}
+
+.header_in ul li a:hover {
+    color: #052749;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.top {
+    background: url(./image/bg.png) no-repeat center top;
+    height: 445px;
+    width: 100%;
+    background-size: cover;
+}
+
+h1{
+    color: #669ED6;
+    font-size: 40px;
+    padding-top: 222px;
+    text-align: center;
+    /* letter-spacing: 8px; */
+    font-family: 'GmarketSans';
+}
+
+
+h2{
+    color: #669ED6;
+    font-size: 30px;
+    text-align: center;
+    margin: 80px 0;
+    font-family: 'GmarketSans';
+}
+
+
+
+.recipe {
+    display: block;
+    height: 951px;
+    width: 694px;
+    margin: auto;
+}
+
+.box1{
+       background: url(./image/bg7.png) repeat-x 0 top;
+       height: 1204px;
+       width: 100%;
+       margin: 200px 0 150px 0;
+       animation: marquee2 2s linear infinite alternate;
+}
+
+@keyframes marquee2{
+    0%{background-position: 0 top;}
+    100%{background-position: 500px top;}
+}
+
+.box1_in{
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+}
+
+.box2{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.box2 img{
+    width: 287px;
+    height: 260px;
+}
+
+
+h3{
+    color: #669ED6;
+    font-size: 30px;
+    text-align: center;
+   padding: 110px 0 0 0;
+    font-family: 'GmarketSans';
+}
+
+.white{
+    border: #d4d4d4 1px solid;
+    background-color: #fff;
+    margin: 50px 20px ;
+}
+
+.box2 p{
+ padding: 30px 0;
+ font-size: 13px;
+}
+
+
+h4{
+    color: #669ED6;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'GmarketSans';
+}
+
+.box4{
+    width: 1320px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.box5{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.box5 li{
+    margin-bottom: 30px;
+}
+
+.box5 li:hover img{
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box5 li img{
+    border-radius: 50px;
+    display: block;
+    transition: 1s;
+}
+
+.event{
+    border: #a7a7a7 1px solid;
+    display: inline-block;
+    border-radius: 37px;
+    text-align: center;
+}
+
+.event p:nth-child(2){
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.event p:nth-child(3){
+    padding-bottom: 10px;
+}
+
+.event p{
+  color: #6B6B6B;
+}
+
+
+/* 푸터 S */
+footer {
+    background-color: #669ED6;
+    padding: 50px;
+}
+
+.footer_in{
+    width: 1320px;
+    margin: auto;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    align-items: center;
+}
+
+.footer_in div{
+    margin-left: 50px;
+}
+
+.footer_in div ul{
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+ }
+
+ .footer_in div ul li a{
+    color: #fff;
+    padding: 30px 45px 20px 0;
+}
+
+.footer_in div ul li a:hover{
+    color: #185796
+}
+
+.footer3{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.sns{
+    margin-left: auto; 
+    
+}
+
+.sns li a{
+    color: #fff;
+    display: block;
+    padding: 0 0 0 15px;
+    font-size: 12px;
+}
+.sns li:nth-child(1) a{
+    background: url(./image/f_in.png) no-repeat left center;
+}
+
+.sns li:nth-child(2) a{
+    background: url(./image/f_e.png) no-repeat left center;
+}
+
+.sns li:nth-child(3) a{
+    background: url(./image/f_k.png) no-repeat left center;
+}
+
+.sns li a:hover{
+    color: #185796
+}
